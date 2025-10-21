@@ -124,6 +124,14 @@ Validar a criação e testar a integração entre os serviços simulados
 
 Essa abordagem é ideal para quem busca produtividade e segurança no desenvolvimento de soluções serverless e baseadas em nuvem, sem abrir mão da praticidade de um ambiente local.
 
+### Tarefas para Configuração:
+	1) Criar o bucket S3: Configure um bucket chamado notas-fiscais-upload
+	2) Criar a tabela no DynamoDB: Nome NotasFiscais, com chave primária id.
+	3) Criar uma Lambda Function: Configure as permissões para acesso ao S3 e DynamoDB.
+	4) Criar o trigger do S3: Configure o bucket para disparar a Lambda ao fazer upload de arquivos	
+
+
+
 
 
 
