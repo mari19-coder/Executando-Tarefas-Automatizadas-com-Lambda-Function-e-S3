@@ -48,7 +48,47 @@ Ideal para pipelines de dados, automação de uploads, e processamento sob deman
     
     -*Integração com outros serviços AWS:* Funciona como um conector entre diversos serviços da AWS, como S3, DynamoDB, API Gateway.
 
+    ## HandsOn:
     
+ ###  1. Usuário gera e envia arquivo
+
+O usuário cria um arquivo (ex: planilha, JSON, etc.) e o envia para um bucket do Amazon S3.
+
+  ### 2. Arquivo é armazenado no S3
+
+O S3 recebe o arquivo e registra o evento de upload.
+
+  ### 3. Evento no S3 aciona uma função Lambda
+
+O upload dispara automaticamente uma função Lambda via trigger configurado no bucket.
+
+  ### 4. Processamento inicial com Python
+
+A função Lambda executa um script Python que realiza:
+
+Validação de tipo de arquivo (ex: só aceita .csv ou .json)
+
+Verificação de campos obrigatórios (ex: nome, data, valor)
+
+  ###  5. Gravação dos dados no DynamoDB
+
+Após validação, os dados extraídos do arquivo são armazenados em uma tabela do DynamoDB.
+
+  ###  6. Consulta à base de dados
+
+O DynamoDB é consultado para verificar ou recuperar dados específicos.
+
+  ### 7. Nova função Lambda é acionada
+
+A consulta ao banco ativa outra função Lambda que processa ou retorna os dados solicitados.
+
+  ### 8. Resposta ao cliente
+
+O resultado da consulta é enviado ao cliente, que pode visualizar ou utilizar os dados.
+
+  ### 9. Cliente realiza nova consulta (ex: Nota Fiscal)
+
+O cliente pode fazer uma nova requisição, como buscar informações de nota fiscal, que novamente aciona a Lambda.
 
     
     
