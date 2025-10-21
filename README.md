@@ -92,6 +92,26 @@ O resultado da consulta é enviado ao cliente, que pode visualizar ou utilizar o
 
 O cliente pode fazer uma nova requisição, como buscar informações de nota fiscal, que novamente aciona a Lambda.
 
+## AWS Local com LocaStack:
+
+Projeto OpenSource, que nos ajuda a simular localmente a AWS.
+
+Criado em 2016 pela Atlantis Software, somente em 2017 o projeto se tonrou publico.
+
+A Localstack oferece uma versão open-source, gratuita e com suporte a vários serviços.
+
+Também possui uma versão Pro e Enterprise, que oferece recursos avançados, como suporte a endopoints de rede personalizados.
+
+O pricipal objetivo da Localstack é fornecer uma alternativa local para p desenvolvimento, teste e integração de serviços em nuvem, sem necessidade de acessar a AWS real.
+
+Isso permite aos desenvolvedores economizar tempo e custos, especialmente em testes automátizados e em ambientes de integração continua (CI/CD).
+
+Serviços suportados: Lambda, API Gateway, S3, DynamoDB, SNS, SQS, CloudFormation, entre outros.
+
+
+
+
+
     
     
 
