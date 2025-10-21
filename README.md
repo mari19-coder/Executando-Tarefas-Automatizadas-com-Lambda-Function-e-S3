@@ -110,6 +110,20 @@ Serviços suportados: Lambda, API Gateway, S3, DynamoDB, SNS, SQS, CloudFormatio
 
 ![](images/dashboardlocalstack.png)
 
+## 🚀 Criando Recursos com LocalStack
+
+Ao desenvolver aplicações que utilizam serviços da AWS, é essencial contar com um ambiente de testes confiável e acessível. É aí que entra o LocalStack, uma poderosa ferramenta que simula os principais serviços da AWS localmente, permitindo que você desenvolva e teste suas aplicações sem depender da nuvem real.
+
+Nesta etapa, vamos aprender como criar recursos essenciais — como buckets S3, funções Lambda e tabelas DynamoDB — diretamente no LocalStack. Isso garante agilidade no desenvolvimento, economia de custos e maior controle sobre o ambiente de testes.
+
+Você verá como:
+
+Criar recursos via comandos CLI ou arquivos de configuração
+
+Validar a criação e testar a integração entre os serviços simulados
+
+Essa abordagem é ideal para quem busca produtividade e segurança no desenvolvimento de soluções serverless e baseadas em nuvem, sem abrir mão da praticidade de um ambiente local.
+
 
 
 
