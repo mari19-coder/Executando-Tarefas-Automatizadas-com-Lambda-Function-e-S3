@@ -50,7 +50,7 @@ Ideal para pipelines de dados, automação de uploads, e processamento sob deman
 
     ## ⚙️ HandsOn:
 
-     ![](case.drawio.png)
+     ![](images/case.drawio.png)
     
  ###  1. Usuário gera e envia arquivo
 
