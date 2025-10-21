@@ -108,6 +108,8 @@ Isso permite aos desenvolvedores economizar tempo e custos, especialmente em tes
 
 Serviços suportados: Lambda, API Gateway, S3, DynamoDB, SNS, SQS, CloudFormation, entre outros.
 
+![](images/dashboardlocalstack.png)
+
 
 
 
