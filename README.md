@@ -49,6 +49,8 @@ Ideal para pipelines de dados, automação de uploads, e processamento sob deman
     -*Integração com outros serviços AWS:* Funciona como um conector entre diversos serviços da AWS, como S3, DynamoDB, API Gateway.
 
     ## ⚙️ HandsOn:
+
+     ![](case.drawio.png)
     
  ###  1. Usuário gera e envia arquivo
 
