@@ -23,34 +23,34 @@ Ideal para pipelines de dados, automação de uploads, e processamento sob deman
 ## 🧠 Amazon S3
 
 - É um serviço de armazenamento em nuvem da AWS que permite"armazenar e acessar" dados de forma segura e escalável. Ele suporta qualquer tipo de arquivo (vídeo, áudio, documentos,etc.) e é ideal para backup e armazenamento de objetos.
+
+### 💡 Princincipais vantagens do S3:
   
-  ### 💡 Princincipais vantagens do S3:
+-*Durabilidade:* Altamente confiável, com redundância para proteger contra falhas.
   
-  -*Durabilidade:* Altamente confiável, com redundância para proteger contra falhas.
+-*Disponibilidade:* Garante acesso contínuo aos dados.
   
-  -*Disponibilidade:* Garante acesso contínuo aos dados.
+-*Escalabilidade:* Ajusta automaticamente a capacidade de armazenamento conforme a necessidade.
   
-  -*Escalabilidade:* Ajusta automaticamente a capacidade de armazenamento conforme a necessidade.
-  
-  -*Segurança:* Oferece criptografia, controle de acesso e monitoramento de atividades.
+-*Segurança:* Oferece criptografia, controle de acesso e monitoramento de atividades.
 
   ## 🧠 AWS Lambda
   
   - É um serviço de computação em serveless que permite executar código em resposta a eventos, sem a necessidade de gerenciar servidores. Basta fazer o upload do código e o Lambda se encarrega de executar automaticamente, escalando conforme a demanda.
 
-    ### 💡 Princincipais vantagens do Lambda:
+### 💡 Princincipais vantagens do Lambda:
     
-    -*Execução sob demanda:* O código é executado apenas quando necessário, respondendo a eventos.
+-*Execução sob demanda:* O código é executado apenas quando necessário, respondendo a eventos.
     
-    -*Escalabilidade automática:* Ajusta a capacidade automaticamente com base no número de eventos.
+-*Escalabilidade automática:* Ajusta a capacidade automaticamente com base no número de eventos.
     
-    -*Custo Eficiente:* Cobra apenas pelo tempo de execução e pela quantidade de solicitações.
+-*Custo Eficiente:* Cobra apenas pelo tempo de execução e pela quantidade de solicitações.
     
-    -*Integração com outros serviços AWS:* Funciona como um conector entre diversos serviços da AWS, como S3, DynamoDB, API Gateway.
+ -*Integração com outros serviços AWS:* Funciona como um conector entre diversos serviços da AWS, como S3, DynamoDB, API Gateway.
 
-    ## ⚙️ HandsOn:
+## ⚙️ HandsOn:
 
-     ![](images/case.drawio.png)
+ ![](images/case.drawio.png)
     
  ###  1. Usuário gera e envia arquivo
 
