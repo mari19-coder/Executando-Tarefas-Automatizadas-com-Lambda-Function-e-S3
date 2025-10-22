@@ -138,6 +138,20 @@ Essa abordagem é ideal para quem busca produtividade e segurança no desenvolvi
 4. Criar o trigger do S3: Configure o bucket para disparar a Lambda ao fazer upload de arquivos
    ![](images/configurartriggers3.png)
 
+### Criando API no API Gateway:
+![](images/APIGateway.png)
+
+### Criando Recurso Notas na API:
+![](images/recursoAPI.png)
+
+### Configurando Método HTTP:
+![](images/confmetodoHTTP.png)
+
+### Integrando Método com a Lambda:
+![](images/metodolambda.png)
+
+### Permisões e Teste à API para invocar Lambda:
+![](images/permisoesetestes.png)
 
 
 
