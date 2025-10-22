@@ -127,10 +127,10 @@ Essa abordagem é ideal para quem busca produtividade e segurança no desenvolvi
 ### 🔧 Tarefas para Configuração:
 
 1. Criar o bucket S3: Configure um bucket chamado notas-fiscais-upload	
-	![]()
+	![](images/buckets3.png)
 	
 2. Criar a tabela no DynamoDB: Nome NotasFiscais, com chave primária id.
-   ![]()
+   ![](images/dynamoDB.png)
    
 3. Criar uma Lambda Function: Configure as permissões para acesso ao S3 e DynamoDB.
    ![](images/lambdafunction.png)
