@@ -135,7 +135,8 @@ Essa abordagem é ideal para quem busca produtividade e segurança no desenvolvi
 3. Criar uma Lambda Function: Configure as permissões para acesso ao S3 e DynamoDB.
    ![](images/lambdafunction.png)
    
-4. Criar o trigger do S3: Configure o bucket para disparar a Lambda ao fazer upload de arquivos	
+4. Criar o trigger do S3: Configure o bucket para disparar a Lambda ao fazer upload de arquivos
+   ![](images/configurartriggers3.png)
 
 
 
